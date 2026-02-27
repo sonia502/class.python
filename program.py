@@ -10,4 +10,4 @@
 user_1 = int(input("enter first number to add"))
 user_2 = int(input("enter second number to add"))
 mul = user_1 * user_2
-print("the res of mul is:",multiply)
+print("the res of multiply is:",multiply)

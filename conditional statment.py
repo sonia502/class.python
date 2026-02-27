@@ -49,11 +49,20 @@ if 5 > 10:
 # write a program to show marks and find its percentage 
 # say failed if marks are below 50.
 marks = float(input("enter your marks:"))
-if marks < 60:
-    print("you are failed", marks)
-    percentage = marks/100*100
-    print("your per is:", percentage, "%" )
+if marks > 60:
+
+    print("congratulations you're passed", marks)
+    percetange = marks/100*100
+    print("your percentage is:",percetange, "%" )
 print("end")
+
+
+
+
+  
+
+
+
 
 
 
