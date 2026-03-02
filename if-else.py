@@ -14,9 +14,28 @@
 
 # check whether the number is positive or negative
 
-number = int(input("please enter a number of your choice>>"))
+# number = int(input("please enter a number of your choice>>"))
 
-if number >0:
-    print("The Number",number, " is Positive")
+# if number >0:
+#     print("The Number",number, " is Positive")
+# else:
+#     print("The number", number ,"is Negative")
+ 
+age = int(input("enter your age")) 
+
+if age > 18:
+    print("You can vote!")
 else:
-    print("The number", number ,"is Negative")
+    print("Too young to vote")
+   
+
+# check temp is high or low
+# temp = int(input("enter temp")) 
+
+
+# if temp > 30:
+#     print("It's really hot 🥵")
+# else:
+#     print("Nice warm weather 🌞")
+
+
